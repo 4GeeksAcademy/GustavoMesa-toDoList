@@ -50,7 +50,7 @@ export const ToDoList = () => {
                     </div>
                 </div>
                 <div className="card-footer text-body-secondary text-start">
-                    {newNote.length} Actividades pendientes
+                    {newNote.length == 0 ? 'No tienes' : newNote.length} Actividades pendientes
                 </div>
             </div>
         </div>
